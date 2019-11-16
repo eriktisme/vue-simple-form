@@ -1,0 +1,47 @@
+{
+  "name": "vue-simple-form",
+  "version": "0.1.0",
+  "description": "A simple form helper for Vue.js written in TypeScript.",
+  "main": "dist/vue-simple-form.common.js",
+  "scripts": {
+    "build": "vue-cli-service build src/index.ts --target lib",
+    "test": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "yarn test && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eriktisme/vue-simple-form.git"
+  },
+  "author": "Erik",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue.js",
+    "form",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/eriktisme/vue-simple-form/issues"
+  },
+  "homepage": "https://github.com/eriktisme/vue-simple-form",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-typescript": "^4.0.0",
+    "@vue/cli-plugin-unit-jest": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "core-js": "^3.3.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.18.2",
+    "typescript": "~3.5.3",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
