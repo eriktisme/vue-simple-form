@@ -1,6 +1,6 @@
 {
   "name": "@evandam93/vue-simple-form",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple form helper for Vue.js written in TypeScript.",
   "main": "dist/vue-simple-form.common.js",
   "scripts": {
