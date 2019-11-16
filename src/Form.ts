@@ -1,4 +1,4 @@
-import ErrorBag from "@/ErrorBag";
+import ErrorBag from "./ErrorBag";
 
 type FormData = {
   [key: string]: any;
