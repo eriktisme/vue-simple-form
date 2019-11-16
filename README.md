@@ -6,7 +6,7 @@ Simple package to handle forms in Vue.js. Inspired by [vform](https://github.com
 You can install the package via yarn:
 
 ```bash
-yarn add vue-simple-form
+yarn add @evandam93/vue-simple-form
 ```
 ## Usage
 
