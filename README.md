@@ -1,4 +1,6 @@
 # vue-simple-form
+[![Build Status](https://travis-ci.org/eriktisme/vue-simple-form.svg?branch=master)](https://travis-ci.org/eriktisme/vue-simple-form) [![npm version](https://badge.fury.io/js/%40evandam93%2Fvue-simple-form.svg)](https://badge.fury.io/js/%40evandam93%2Fvue-simple-form)
+
 Simple package to handle forms in Vue.js. Inspired by [vform](https://github.com/cretueusebiu/vform).
 
 ## Installation
