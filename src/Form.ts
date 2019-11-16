@@ -40,10 +40,10 @@ export default class Form {
     this.successful = true;
   }
 
-  public fill(data: Object): void {
-    for (const key in data) {
-      this.registerProperty(key);
-    }
+  public fill(data: FormData): void {
+    Object.keys(this.formData).forEach(key => {
+      this[key] = data[key];
+    });
   }
 
   public failed(errors: Object): void {
