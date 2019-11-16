@@ -25,6 +25,15 @@
     "url": "https://github.com/eriktisme/vue-simple-form/issues"
   },
   "homepage": "https://github.com/eriktisme/vue-simple-form",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -39,6 +48,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
+    "lint-staged": "^9.4.3",
     "prettier": "^1.18.2",
     "typescript": "~3.5.3",
     "vue": "^2.6.10",
